@@ -1,7 +1,7 @@
 {
   "homepage": "https://nhayaan07.github.io/galaxy-food",
   "name": "galaxy-food",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
