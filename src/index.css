@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* this is primary css for webpage  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root {
+    --primary-color: #B11016;
+    --secondary-color: #F95600 ;
+    --yellow: #FDF300;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0 ;
+}
+
+.btn-default {
+    padding: 1rem 1.5rem;
+    background: black;
+    color: white;
+    border: none;
+    outline: navajowhite;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
