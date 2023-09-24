@@ -1,36 +1,42 @@
 @media (max-width: 576px) { 
 .mobile-menu {
 position: absolute;
-    background: #F9F7F1;
-    top: 50px;
+    background: white;
+    top: 60px;
     left: -100vw;
     width: 80%;
     flex-direction: column;
     color: black!important;
     align-items: start;
-    height: calc(100% - 50px);
+    height: calc(100% - 60px);
     padding-top: 5rem;
     padding-left: 1rem;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
+    flex-wrap: wrap;
 }
 .mobile-menu.active {
     visibility: visible;
     left: 0;
 }
 .mobile-menu li {
-    border: 1px solid black;
+    background: #e1e1e17d;
     width: 90%;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 1.2rem;
 
 }
 .mobile-menu li:hover {
     background-color: var(--primary-color);
     color: white;
 }
-.mobile-menu li:first-child:hover {
+.mobile-menu li:first-child {
     background: none;
+    padding: 0;
+
+}
+.mobile-menu li:first-child:hover {
+    background-color: none;
 }
 
 

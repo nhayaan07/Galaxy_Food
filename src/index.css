@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* this is primary css for webpage  */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,6 +37,6 @@ ol {
     color: white;
     border: none;
     outline: navajowhite;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }

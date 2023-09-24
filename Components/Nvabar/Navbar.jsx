@@ -21,7 +21,7 @@ mobileRef.current.classList.toggle('active');
    
 <>
     
-<nav className="bg-[--primary-color] p-2 h-[5rem] overflow-hidden">
+<nav className="bg-[--primary-color] p-2 h-[6rem] overflow-hidden py-4">
  <div className="nav-container flex justify-between items-center overflow-hidden box-border">
 
  {/* Mobile icon Start  */}
@@ -35,7 +35,7 @@ mobileRef.current.classList.toggle('active');
 
 
 <div className="branding  md:block">
-    <a className=" uppercase font-bold text-2xl text-white" href="#"> Galaxy Food</a>
+    <a className=" uppercase font-bold text-3xl text-white" href="#"> Galaxy Food</a>
 </div>
 
 {/* here is menu item code  */}
