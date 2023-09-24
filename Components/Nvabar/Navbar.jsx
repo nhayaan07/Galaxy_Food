@@ -21,7 +21,7 @@ mobileRef.current.classList.toggle('active');
    
 <>
     <header className="bg-[--primary-color] fixed top-0 left-0 right-0 h-[6rem]" >
-<nav className=" p-2   py-4 flex justify-between items-center md:w-3/4 mx-auto
+<nav className=" p-2 max-sm:px-5   py-4 flex justify-between items-center md:w-3/4 mx-auto
 ">
  
 

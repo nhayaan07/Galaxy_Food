@@ -1,0 +1,23 @@
+.banner {
+}
+.banner-effect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/public/img/bg1.jpg'); 
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+.banner-effect::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.7;
+}

@@ -1,3 +1,10 @@
+.mobile-menu li{
+padding: 1rem;
+}
+.mobile-menu li:hover {
+}
+
+
 @media (max-width: 576px) { 
 .mobile-menu {
     position: absolute;
