@@ -42,7 +42,7 @@ mobileRef.current.classList.toggle('active');
 <div className="">
 <ul className="mobile-menu gap-10 text-2xl uppercase font-bold text-white flex
 " ref={mobileRef}>
-    <li className="hidden max-sm:block"><img className="w-full object-cover" src="/public/img/logo2.png" alt="" /></li>
+    <li className="hidden max-sm:block"><img className="w-full object-cover" src="./img/logo2.png" alt="" /></li>
     <li className="hover:bg-zinc-900">About</li>
     <li className="hover:bg-zinc-900">Menu</li>
     <li className="hover:bg-zinc-900">Group</li>
