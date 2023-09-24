@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
 
-<h1>Hey Haha , This is my first react projext</h1>
+<h1>Hey Haha , I am Nazmul</h1>
     </div>
   )
 }
