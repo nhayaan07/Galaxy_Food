@@ -1,19 +1,17 @@
 @media (max-width: 576px) { 
 .mobile-menu {
-position: absolute;
+    position: absolute;
     background: white;
     top: 60px;
     left: -100vw;
     width: 80%;
     flex-direction: column;
     color: black!important;
-    align-items: start;
     height: calc(100% - 60px);
     padding-top: 5rem;
     padding-left: 1rem;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
-    flex-wrap: wrap;
 }
 .mobile-menu.active {
     visibility: visible;

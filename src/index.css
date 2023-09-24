@@ -10,10 +10,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     list-style: none;
     text-decoration: none;
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
