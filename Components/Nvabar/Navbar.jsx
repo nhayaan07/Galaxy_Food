@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Navbar.css";
-
+import style from './Navbar.module.css'
 
 import React from 'react'
 
@@ -9,13 +8,13 @@ const Navbar = () => {
     const inputRef = useRef(null);
     const mobileRef = useRef(null);
     const showMenu = () => {
-mobileRef.current.classList.toggle('active');
+mobileRef.current.classList.toggle('_active_pdioc_45');
     };
     const closeMenu = () => {
-        mobileRef.current.classList.remove('active');
+        mobileRef.current.classList.remove('_active_pdioc_45');
     }
 
-
+console.log(style)
 
   return (
    
@@ -41,8 +40,7 @@ mobileRef.current.classList.toggle('active');
 
 {/* here is menu item code  */}
 <div className="">
-<ul className="mobile-menu gap-10 text-2xl uppercase font-bold text-white flex
-" ref={mobileRef}>
+<ul className={`${style.mobile} gap-10 text-2xl uppercase font-bold text-white flex `} ref={mobileRef}>
     <li className="hidden max-sm:block"><img className="w-full object-cover" src="./img/logo2.png" alt="" /></li>
     <li className="hover:bg-zinc-900">About</li>
     <li className="hover:bg-zinc-900">Menu</li>
