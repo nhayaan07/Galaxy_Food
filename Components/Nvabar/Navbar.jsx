@@ -7,14 +7,15 @@ import React from 'react'
 const Navbar = () => {
     const inputRef = useRef(null);
     const mobileRef = useRef(null);
+    const activeClass = style.active ;
     const showMenu = () => {
-mobileRef.current.classList.toggle('_active_pdioc_45');
+mobileRef.current.classList.toggle(activeClass);
     };
     const closeMenu = () => {
-        mobileRef.current.classList.remove('_active_pdioc_45');
+        mobileRef.current.classList.remove(activeClass);
     }
 
-console.log(style)
+console.log(activeClass)
 
   return (
    
