@@ -42,7 +42,7 @@ console.log(activeClass)
 {/* here is menu item code  */}
 <div className="">
 <ul className={`${style.mobile} gap-10 text-2xl uppercase font-bold text-white flex `} ref={mobileRef}>
-    <li className="hidden max-sm:block"><img className="w-full object-cover" src="./img/logo.png" alt="" /></li>
+    <li className="hidden max-sm:block"><img className="h-[100px] mx-auto object-cover" src="./img/logo.png" alt="" /></li>
     <li className="hover:bg-zinc-900">About</li>
     <li className="hover:bg-zinc-900">Menu</li>
     <li className="hover:bg-zinc-900">Group</li>
