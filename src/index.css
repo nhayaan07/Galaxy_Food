@@ -19,9 +19,9 @@ html {
     scroll-behavior: smooth;
 }
 :root {
-    --primary-color: #B11016;
-    --secondary-color: #F95600 ;
-    --yellow: #FDF300;
+    --primary-color: #2D2D2D;
+    --secondary-color: #80C493 ;
+    --red: #C2464B;
 }
 
 ul,
@@ -33,8 +33,6 @@ ol {
 
 .btn-default {
     padding: 1rem 1.5rem;
-    background: #c53e1ecf;
-    color: white;
     border: none;
     outline: navajowhite;
     font-size: 1.5rem;

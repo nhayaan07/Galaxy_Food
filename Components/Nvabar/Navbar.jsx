@@ -20,7 +20,7 @@ console.log(activeClass)
   return (
    
 <>
-    <header className="bg-[--primary-color] fixed top-0 left-0 right-0 h-[6rem]" >
+    <header className="bg-[--primary-color] fixed top-0 left-0 right-0 h-[6rem] z-[999]" >
 <nav className=" p-2 max-sm:px-5   py-4 flex justify-between items-center md:w-3/4 mx-auto
 ">
  
@@ -60,12 +60,12 @@ console.log(activeClass)
 </div>
 
 <div className="right-nav">
-    <button className="btn-default">Book Now</button>
+    <button className="btn-default bg-[--secondary-color]">Book Now</button>
 </div>
 
 
 </nav></header> 
-<div className="mt-[6rem]"></div>
+<div className="mt-[5.9rem]"></div>
 {/* this is for perfect position of navbar  */}
 
 
