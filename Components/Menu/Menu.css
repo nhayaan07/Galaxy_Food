@@ -1,0 +1,31 @@
+.tab-head li {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.tab-head li:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.tab-title {
+    position: relative;
+}
+.tab-title::after {
+    content: '';
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 1.2rem;
+    width: 20%;
+    margin: auto;
+    color: black;
+    display: block;
+}
+
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}

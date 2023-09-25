@@ -19,6 +19,10 @@ html {
     --secondary-color: #80C493 ;
     --red: #C2464B;
 }
+body {
+    font-family: 'CharukolaUltraLight', sans-serif;
+
+}
 
 ul,
 ol {
