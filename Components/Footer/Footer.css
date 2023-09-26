@@ -1,0 +1,19 @@
+.footer-row h1 {
+font-size: 18px;
+font-weight: 600;
+color: var(--secondary-color);
+padding-bottom: 10px;
+}
+.footer-row h1::after {
+    content: '';
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 1.2rem;
+    width: 20%;
+    color: white;
+    display: block;
+}
+.footer-row ul li {
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

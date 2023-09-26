@@ -44,7 +44,7 @@ console.log(activeClass)
 <ul className={`${style.mobile} gap-10 text-2xl uppercase font-bold text-white flex `} ref={mobileRef}>
     <li className="hidden max-sm:block"><img className="h-[100px] mx-auto object-cover" src="./img/logo.png" alt="" /></li>
     <li className="hover:bg-zinc-900">About</li>
-    <li className="hover:bg-zinc-900">Menu</li>
+    <li className="hover:bg-zinc-900"><a href="#menu">Menu</a></li>
     <li className="hover:bg-zinc-900">Group</li>
     <li className="hover:bg-zinc-900">Contact</li>
     <li className="hover:bg-zinc-900 text-[--primary-color]
